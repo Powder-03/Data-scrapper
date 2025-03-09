@@ -1,0 +1,15 @@
+{
+    "name": null,
+    "input_variables": [
+        "company_name"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "You work is to do web scrapping and find all the information in the structured format about the company {company_name}\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
