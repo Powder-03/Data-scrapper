@@ -5,19 +5,19 @@ from langchain_core.prompts import load_prompt
 from with_structured_output import Insight
 from langchain_core.messages import HumanMessage
 
-# Load environment variables
+
 load_dotenv()
 
-# Streamlit UI
+
 st.set_page_config(page_title="Company Insights", layout="wide")
 
 st.title("🔍 Company Insight Generator")
 st.write("Enter a company name to fetch insights using Google Gemini Pro.")
 
-# User input for company name
+
 company_name = st.text_input("Enter Company Name", placeholder="e.g., Maruti Suzuki")
 
-# Button to fetch insights
+
 if st.button("Get Insights"):
     model = ChatGoogleGenerativeAI(model='gemini-1.5-pro', temperature=0.1)
             
