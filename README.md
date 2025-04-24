@@ -4,6 +4,10 @@ A Python-based tool designed to extract and process structured data from web sou
 
 ## Features
 
+https://github.com/user-attachments/assets/84f42502-2e11-45bd-adcd-6d85911abedc
+
+
+
 - **Flexible Data Extraction**: Utilizes `prompt_template.py` to define adaptable scraping prompts tailored to various data sources.
 - **Structured Output Handling**: `with_structured_output.py` ensures the scraped data is organized into a consistent and usable format.
 - **Template Configuration**: `template.json` allows users to specify scraping parameters and structures without modifying the core codebase.
